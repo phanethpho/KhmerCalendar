@@ -4,10 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./netlify/functions/app.js start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "serverless-http": "^4.0.0"
+  }
 }
