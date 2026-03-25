@@ -10,7 +10,7 @@
 
   <script>
     async function load() {
-      const res = await fetch("/api/hello");
+      const res = await fetch("/");
       const data = await res.json();
       document.getElementById("result").innerText = data.message;
     }
