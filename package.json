@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./netlify/functions/app.js start",
+    "start": "node app.js start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
