@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Express Frontend</title>
+</head>
+<body>
+  <h1>Node + Express Frontend</h1>
+  <button onclick="load()">Call API</button>
+  <p id="result"></p>
+
+  <script>
+    async function load() {
+      const res = await fetch("/api/hello");
+      const data = await res.json();
+      document.getElementById("result").innerText = data.message;
+    }
+  </script>
+</body>
+</html>

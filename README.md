@@ -1,4 +1,5 @@
 ✅ Folder Structure (recommended)
+```bash
 project/
 ├── server.js
 ├── package.json
@@ -7,3 +8,4 @@ project/
 │   ├── styles.css
 │   └── app.js
 
+```
